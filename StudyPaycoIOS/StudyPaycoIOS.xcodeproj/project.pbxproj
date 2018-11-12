@@ -15,6 +15,8 @@
 		2DA9033C2199AC2500085ECF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA9033B2199AC2500085ECF /* main.m */; };
 		2DA903462199AC2500085ECF /* StudyPaycoIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA903452199AC2500085ECF /* StudyPaycoIOSTests.m */; };
 		2DA903512199AC2500085ECF /* StudyPaycoIOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA903502199AC2500085ECF /* StudyPaycoIOSUITests.m */; };
+		2DA903602199AF4100085ECF /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA9035F2199AF4100085ECF /* CustomButton.m */; };
+		2DA903632199AF4A00085ECF /* CustomButton2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA903622199AF4A00085ECF /* CustomButton2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		2DA9034C2199AC2500085ECF /* StudyPaycoIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyPaycoIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DA903502199AC2500085ECF /* StudyPaycoIOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudyPaycoIOSUITests.m; sourceTree = "<group>"; };
 		2DA903522199AC2500085ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DA9035E2199AF4100085ECF /* CustomButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		2DA9035F2199AF4100085ECF /* CustomButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		2DA903612199AF4A00085ECF /* CustomButton2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomButton2.h; sourceTree = "<group>"; };
+		2DA903622199AF4A00085ECF /* CustomButton2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomButton2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				2DA9032D2199AC2400085ECF /* AppDelegate.m */,
 				2DA9032F2199AC2400085ECF /* ViewController.h */,
 				2DA903302199AC2400085ECF /* ViewController.m */,
+				2DA9035E2199AF4100085ECF /* CustomButton.h */,
+				2DA9035F2199AF4100085ECF /* CustomButton.m */,
+				2DA903612199AF4A00085ECF /* CustomButton2.h */,
+				2DA903622199AF4A00085ECF /* CustomButton2.m */,
 				2DA903322199AC2400085ECF /* Main.storyboard */,
 				2DA903352199AC2500085ECF /* Assets.xcassets */,
 				2DA903372199AC2500085ECF /* LaunchScreen.storyboard */,
@@ -262,6 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DA903602199AF4100085ECF /* CustomButton.m in Sources */,
+				2DA903632199AF4A00085ECF /* CustomButton2.m in Sources */,
 				2DA903312199AC2400085ECF /* ViewController.m in Sources */,
 				2DA9033C2199AC2500085ECF /* main.m in Sources */,
 				2DA9032E2199AC2400085ECF /* AppDelegate.m in Sources */,
