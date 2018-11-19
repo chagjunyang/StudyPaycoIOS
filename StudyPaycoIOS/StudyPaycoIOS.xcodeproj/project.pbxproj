@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D3DB79021A241E400A47B88 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3DB78F21A241E400A47B88 /* Test.m */; };
 		2DA9032E2199AC2400085ECF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA9032D2199AC2400085ECF /* AppDelegate.m */; };
 		2DA903312199AC2400085ECF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA903302199AC2400085ECF /* ViewController.m */; };
 		2DA903342199AC2400085ECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA903322199AC2400085ECF /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D3DB78E21A241E400A47B88 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		2D3DB78F21A241E400A47B88 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		2DA903292199AC2400085ECF /* StudyPaycoIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyPaycoIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DA9032C2199AC2400085ECF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2DA9032D2199AC2400085ECF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				2DA9032D2199AC2400085ECF /* AppDelegate.m */,
 				2DA9032F2199AC2400085ECF /* ViewController.h */,
 				2DA903302199AC2400085ECF /* ViewController.m */,
+				2D3DB78F21A241E400A47B88 /* Test.m */,
+				2D3DB78E21A241E400A47B88 /* Test.h */,
 				2DA903322199AC2400085ECF /* Main.storyboard */,
 				2DA903352199AC2500085ECF /* Assets.xcassets */,
 				2DA903372199AC2500085ECF /* LaunchScreen.storyboard */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DA903312199AC2400085ECF /* ViewController.m in Sources */,
+				2D3DB79021A241E400A47B88 /* Test.m in Sources */,
 				2DA9033C2199AC2500085ECF /* main.m in Sources */,
 				2DA9032E2199AC2400085ECF /* AppDelegate.m in Sources */,
 			);

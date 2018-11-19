@@ -7,23 +7,40 @@
 //
 
 #import "ViewController.h"
+#import "Test.h"
+
 
 @interface ViewController ()
 
+@property (assign, nonatomic) Test *test1;
+@property (weak, nonatomic) Test *test2;
+
 @end
+
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    Test *sTest = [Test new];
+    sTest.string1 = @"set";
+    
+    _test1 = sTest;
+    _test2 = sTest;
+    
+    NSLog(@"test1 %@", _test1);
+    NSLog(@"test2 %@", _test2);
+    
+    sTest = nil;
+    
+    NSLog(@"test1 %@", _test1);
+    NSLog(@"test2 %@", _test2);
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 
 @end
